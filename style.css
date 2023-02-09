@@ -1,0 +1,297 @@
+/*WHOLE DOCUMENT*/
+.body {
+  margin: 100px 100px 0px 100px;
+  background-image: url("space.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+}
+
+/*--Logo--*/
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  object-fit: contain;
+}
+
+.logo img:hover {
+  cursor: pointer;
+}
+
+/*--CAPTION--*/
+
+.caption {
+  text-align: center;
+  font-family: "VT323", monospace;
+  color: #5f0ba8;
+  text-shadow: white;
+  font-size: 22px;
+
+  padding-top: 5px;
+}
+
+.caption img {
+  align-items: center;
+  height: 30px;
+  width: 20px;
+}
+
+.text-box {
+  color: white;
+  font-size: 20px;
+}
+
+/* MOOD CHART TEXT*/
+
+.moodchart-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moodchart-box img {
+  display: flex;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*CLICK ON CRYSTAL BELOW BOX*/
+
+.crystal-info {
+  padding: 1%;
+  background: linear-gradient(#d40f9f, #5f0ba8);
+  border-radius: 20px;
+  margin-bottom: 2%;
+
+  font-family: "VT323", monospace;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MOOD BUTTONS MENU */
+
+.moodBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.moodBtn {
+  background-color: rgba(255, 255, 255, 15%);
+  padding: 20px;
+  border: solid white 2px;
+
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.moodBtn button {
+  background: linear-gradient(#5f0ba8, #0c195e);
+  color: white;
+  border: solid #0c195e 2px;
+  /* padding: 10px 10px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-radius: 20px; */
+  width: 45%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
+
+  font-family: "VT323", monospace;
+  text-transform: uppercase;
+  font-size: 18px;
+
+  display: flex inline;
+}
+
+.moodBtn button:hover {
+  background-color: black;
+  color: black;
+  cursor: pointer;
+  border: none;
+  transform: rotate(5deg);
+  scale: 1.2;
+}
+
+.crystal {
+  width: 5%;
+}
+
+/* CRYSTAL OPTION BOX*/
+
+.crystal-box {
+  margin-top: 2%;
+  border: solid white 2px;
+  background-color: rgba(255, 255, 255, 15%);
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.crystal-box button {
+  align-items: center;
+  justify-content: center;
+
+  width: 25%;
+
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  background: linear-gradient(#5f0ba8, #d40f9f);
+  border: solid #5f0ba8;
+
+  margin: 1%;
+}
+
+@media (max-width: 650px) {
+  .crystal-box button {
+    width: 50%;
+  }
+}
+
+.crystal-box a {
+  color: white;
+}
+
+.crystal-box a:hover {
+  color: black;
+}
+
+/*CLICK ON CRYSTALS*/
+
+.img-crystal {
+  width: 50%;
+}
+
+/* OTHER PAGES BUTTONS MENU*/
+
+.btn-warning {
+  border: solid white 2px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 15%);
+}
+
+.btn-warning img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 500px;
+}
+
+@media (max-width: 650px) {
+  .btn-warning img {
+    width: 285px;
+    justify-content: center;
+  }
+}
+
+/*BUTTONS FOR OTHER PAGES*/
+
+.otherBtns {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.otherBtns button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.btn-ChakraB,
+.btn-PhysA {
+  background: radial-gradient(
+    #5f0ba8,
+    #0c195e,
+    #03638b,
+    #d40f9f,
+    #a23c35,
+    #085036
+  );
+  color: white;
+
+  border: solid #5f0ba8;
+  border-radius: 20px;
+
+  padding: 20px 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: "VT323", monospace;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*CREATE COLUMN
+.menu {
+  display: flex-start;
+  column-count: 1;
+  width: 200px;
+}*/
+
+/*FOOTER*/
+
+.footer {
+  background: linear-gradient(#5f0ba8, #0c195e);
+  font-family: "VT323", monospace;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+  height: 60px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/*CHAKRA & AILMENTS PAGES*/
+
+/* PHYSICAL AILMENTS BODY SYSTEMS IMAGE*/
+
+.body-systems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-systems img {
+  height: 400px;
+  width: 450px;
+}
+
+.body-systems img:hover {
+  transform: scale(1.2);
+}
+
+/* CHAKRA BALANCING CHAKRA IMAGE*/
+
+.chakras-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chakras-box img {
+  height: 400px;
+  width: 450px;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.chakras-box img:hover {
+  transform: scale(1.2);
+}
