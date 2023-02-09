@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!--Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <link href="style-js.css" rel="stylesheet"/>
+
+    <!--Logo & Caption-->
+
+    <title>MOODCrystal</title>
+<body class="body">
+  </head>
+  <div class="logo">
+    <img src="logo.png" alt="mood crystal">
+  </div>
+<div class="caption">
+  <h3><img src="sparkle.png"> There's a crystal for that <img src="sparkle.png"></h3>
+<h3 class="text-box">
+    What mood are you in?
+    What mood do you seek?
+    What crystal is right for you?
+</h3>
+  <hr>
+</div>
+
+<!--MOOD CHART-->
+<span class="menu">
+  <div class="moodchart-box">
+    <img src="Mood Chart.png" alt="Mood Chart heading">
+  </div>
+ 
+<!--INFO BOX-->
+
+<div class = "crystal-info">
+  <p>Click a button below to find your crystal. Click on the picture of the 
+    crystal to find out more information.
+  </p>
+</div>
+
+
+    <!--Mood Buttons-->
+<div class="moodBox">
+  <main class="moodBtn">
+     <button onclick= "loadAngry()" id="angry">
+      Angry</button>
+      <button onclick= "loadAnxious()" id="anxious">
+        Anxious</button>
+      <button onclick= "loadCalm()" id="calm">
+        Calm</button>
+      <button onclick= "loadConfused()" id="confused">
+        Confused</button>
+      <button onclick= "loadEmpathetic()" id="empathetic">
+        Empathetic</button>
+      <button onclick= "loadEnergetic()" id="energetic">
+        Energetic</button>
+      <button onclick= "loadFatigued()" id="fatigued">
+        Fatigued</button>
+      <button onclick= "loadFrustrated()" id="frustrated">
+      Frustrated</button>
+      <button onclick= "loadHappy()" id="happy">
+        Happy</button>
+      <button onclick= "loadSad()" id="sad">
+        Sad</button>
+      <button onclick= "loadSensual()" id="sensual">
+        Sensual</button>
+      <button onclick= "loadStressed()" id="stressed">
+        Stressed</button>
+  </main>
+</div>
+
+<!--CRYSTALS-->
+
+<div class = "crystal-box">
+
+<!--AMAZONITE DUPLICATES-->
+    <button id="amazonite" class="confused"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amazonite/" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTym37ZkZHuqKb9YjIIe1UNnjBnRswWVb9U-A&usqp=CAU"><hr>
+    Amazonite</button></a>
+
+    <button id="amazonite" class="sad"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amazonite/" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTym37ZkZHuqKb9YjIIe1UNnjBnRswWVb9U-A&usqp=CAU"><hr>
+    Amazonite</button></a>
+
+<!--AMBER-->
+    <button id="amber" class="stressed"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amber" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReenm3FHSep4og9CJKNYNP5_Lz1zSOlenV6g&usqp=CAU"><hr>
+    Amber</button></a>
+
+<!--AMETHYST DUPLICATES-->
+    <button id="amethyst" class="angry"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+      ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+    Amethyst</button></a>
+
+    <button id="amethyst" class="anxious"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+      ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+    Amethyst</button></a>
+
+    <button id="amethyst" class="calm"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+      ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+    Amethyst</button></a>
+
+    <button id="amethyst" class="empathetic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+      ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+    Amethyst</button></a>
+
+    <button id="amethyst" class="happy"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+      ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+    Amethyst</button></a>
+
+    <button id="amethyst" class="sad"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+      ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+    Amethyst</button></a>
+
+    <button id="amethyst" class="stressed"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+      ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+    Amethyst</button></a>
+ 
+<!--ANGELITE-->
+    <button id="angelite" class="sad"><a href= "https://tinyrituals.co/blogs/tiny-rituals/angelite-meaning-healing-properties-everyday-uses" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd96lClBNjthY1lc8ny703rFFJ1vFb7FtofQ&usqp=CAU"><hr>
+    Angelite</button></a>
+
+<!--APATITE-->
+    <button id="apatite" class="confused"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/apatite-blue" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnKB8QsjW92W0-obBVMMP8RgI_Efc55o6TA&usqp=CAU"><hr>
+    Apatite</button></a>
+
+<!--APOPHYLLITE-->
+    <button id="apophyllite" class="fatigued"><a href= "https://tinyrituals.co/blogs/tiny-rituals/apophyllite-meaning-healing-properties-everyday-uses" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxBlxQLhe6Llj8V41hDt1_DbqwDCEnRSnTg&usqp=CAU"><hr>
+      Apophyllite</button></a>
+
+<!--AQUAMARINE-->
+    <button id="aquamarine" class="frustrated"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/aquamarine" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8V4lMcN0WGFKqAPHreRLtkq6yOJQMpvkpPw&usqp=CAU"><hr>
+      Aquamarine</button></a>
+
+<!--BLACK TOURMALINE DUPLICATES-->
+    <button id="black-tourmaline" class="calm"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/black-tourmaline/" target="_blank"">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1h362APXg7ph2bJYPM_tBByQ5dNV_Q4-0w&usqp=CAU"><hr>
+      Black Tourmaline</button></a>
+
+      <button id="black-tourmaline" class="empathetic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/black-tourmaline/" target="_blank"">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1h362APXg7ph2bJYPM_tBByQ5dNV_Q4-0w&usqp=CAU"><hr>
+        Black Tourmaline</button></a>
+
+        <button id="black-tourmaline" class="stressed"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/black-tourmaline/" target="_blank"">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1h362APXg7ph2bJYPM_tBByQ5dNV_Q4-0w&usqp=CAU"><hr>
+          Black Tourmaline</button></a>
+
+<!--BLACK ONYX-->
+    <button id="black-onyx" class="energetic"><a href= "https://tinyrituals.co/blogs/tiny-rituals/black-onyx-meaning" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxm01h1HWK0O6bvF7akoPhpxbLOeLn5BNZ6w&usqp=CAU"><hr>
+      Black Onyx</button></a>
+
+<!--BLOODSTONE DUPLICATES-->
+    <button id="bloodstone" class="angry"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/bloodstone" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Q-w6JbvJHx6YIfcR8uTg3dSVHkqfzKlAnQ&usqp=CAU"><hr>
+      Bloodstone</button></a>
+
+      <button id="bloodstone" class="energetic "><a href= "https://www.crystalvaults.com/crystal-encyclopedia/bloodstone" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Q-w6JbvJHx6YIfcR8uTg3dSVHkqfzKlAnQ&usqp=CAU"><hr>
+        Bloodstone</button></a>
+  
+<!--BLUE LACE AGATE-->
+    <button id="blue-lace-agate" class="stressed"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/blue-lace-agate/" target="_blank"">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiSDX-kr7-VKukghHJjjwrp7XUfK19RVPI3w&usqp=CAU"><hr>
+      Blue Lace Agate</button></a>
+
+<!--CARNELIAN-->
+      <button id="carnelian" class="sensual"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/carnelian" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSWynv_Xc5ARpY9lwvHV1wGJ5_KEZccOshA&usqp=CAU"><hr>
+      Carnelian</button></a>
+  
+<!--CELESTITE DUPLICATES-->
+      <button id="celestite" class="anxious"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/celestite" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX243aHqUFl_IiWvO6mcOiNX9fsQLC2zW4tw&usqp=CAU"><hr>
+      Celestite</button></a>
+
+      <button id="celestite" class="calm"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/celestite" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX243aHqUFl_IiWvO6mcOiNX9fsQLC2zW4tw&usqp=CAU"><hr>
+      Celestite</button></a>
+  
+<!--CITRINE DUPLICATES-->
+      <button id="citrine" class="anxious"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/citrine" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpMbwn7IMMz5b2AD0rZ1ynjvuPMQAWNq0-Q&usqp=CAU"><hr>
+      Citrine</button></a>
+
+      <button id="citrine" class="energetic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/citrine" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpMbwn7IMMz5b2AD0rZ1ynjvuPMQAWNq0-Q&usqp=CAU"><hr>
+      Citrine</button></a>
+
+      <button id="citrine" class="happy"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/citrine" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpMbwn7IMMz5b2AD0rZ1ynjvuPMQAWNq0-Q&usqp=CAU"><hr>
+      Citrine</button></a>
+   
+<!--CLEAR QUARTZ DUPLICATES-->
+      <button id="clear-quartz" class="confused"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/quartz" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7KZd8Gvr7jgLE3mf4MNnQCT8nXcy9FrUp1g&usqp=CAU"><hr>
+      Clear Quartz</button></a>
+
+      <button id="clear-quartz" class="energetic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/quartz" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7KZd8Gvr7jgLE3mf4MNnQCT8nXcy9FrUp1g&usqp=CAU"><hr>
+      Clear Quartz</button></a>
+  
+<!--FLUORITE-->
+      <button id="fluorite" class="confused"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/clear-fluorite/?_ga=2.195767724.1069693491.1675210815-288898737.1675210815" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtulw0Sy6WRbTiwLhiYBEcFLCDgZZA7qxMjg&usqp=CAU"><hr>
+      Fluorite</button></a>
+  
+<!--GREEN AVENTURINE-->
+      <button id="green-aventurine" class="frustrated"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/aventurine-green" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3twrOhllmeUWPE_-jsbEFStzUt5VYKIoqFg&usqp=CAU"><hr>
+        Green Aventurine</button></a>
+  
+<!--HEMATITE DUPLICATES-->
+      <button id="hematite" class="empathetic"><a href= "https://tinyrituals.co/blogs/tiny-rituals/hematite-meaning-healing-properties-stone-guide" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_MImnWbXF5boIDJJkzfukzLuYIgW9KoyzSA&usqp=CAU"><hr>
+        Hematite</button></a>
+
+        <button id="hematite" class="frustrated"><a href= "https://tinyrituals.co/blogs/tiny-rituals/hematite-meaning-healing-properties-stone-guide" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_MImnWbXF5boIDJJkzfukzLuYIgW9KoyzSA&usqp=CAU"><hr>
+          Hematite</button></a>
+  
+<!--HOWLITE DUPLICATES-->
+      <button id="howlite" class="angry"><a href= "https://tinyrituals.co/blogs/tiny-rituals/howlite-meaning-healing-properties-everyday-uses#:~:text=Howlite%20is%20a%20borate%20mineral,linked%20to%20patience%20and%20perspective." target="_blank"">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4r4H8A0bWVuGFBzhVB08moB8F1l8qp7dnmA&usqp=CAU"><hr>
+        Howlite</button></a>
+
+        <button id="howlite" class="calm"><a href= "https://tinyrituals.co/blogs/tiny-rituals/howlite-meaning-healing-properties-everyday-uses#:~:text=Howlite%20is%20a%20borate%20mineral,linked%20to%20patience%20and%20perspective." target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4r4H8A0bWVuGFBzhVB08moB8F1l8qp7dnmA&usqp=CAU"><hr>
+          Howlite</button></a>
+  
+<!--LAPIS LAZULI DUPLICATES-->
+      <button id="lapis-lazuli" class="empathetic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/lapis" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCygPkN3wpJ4n78F7JVMnMFFuVXBFQIJ2jxA&usqp=CAU"><hr>
+        Lapis Lazuli</button></a>
+
+        <button id="lapis-lazuli" class="happy"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/lapis" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCygPkN3wpJ4n78F7JVMnMFFuVXBFQIJ2jxA&usqp=CAU"><hr>
+          Lapis Lazuli</button></a>
+  
+<!--MALACHITE-->
+      <button id="malachite" class="energetic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/malachite" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-O1XbY1BnNXphh5nHj-A8xhlnyrJfuO2Z4w&usqp=CAU"><hr>
+        Malachite</button></a>
+    
+<!--MOONSTONE DUPLICATES-->
+      <button id="moonstone" class="anxious"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/moonstone" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK43uQUczuoLJE4XciZQL9TKqqTxTdyWqIdQ&usqp=CAU"><hr>
+        Moonstone</button></a>
+
+        <button id="moonstone" class="happy"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/moonstone" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK43uQUczuoLJE4XciZQL9TKqqTxTdyWqIdQ&usqp=CAU"><hr>
+          Moonstone</button></a>
+
+<!--OBSIDIAN DUPLICATES-->
+        <button id="obsidian" class="fatigued"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/obsidian/?_ga=2.161015229.1069693491.1675210815-288898737.1675210815" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdTpHmfsLVmsBfxKwUrlaBlSpySNuQh435w&usqp=CAU"><hr>
+        Obsidian</button></a>
+        
+        <button id="obsidian" class="frustrated"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/obsidian/?_ga=2.161015229.1069693491.1675210815-288898737.1675210815" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdTpHmfsLVmsBfxKwUrlaBlSpySNuQh435w&usqp=CAU"><hr>
+        Obsidian</button></a>
+    
+<!--OCEAN JASPER-->
+        <button id="ocean-jasper" class="fatigued"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/ocean-jasper/?_ga=2.161015229.1069693491.1675210815-288898737.1675210815" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLYd2fpnUxX6Sg2BkkEMbdTyYICxIvv2wkew&usqp=CAU"><hr>
+        Ocean Jasper</button></a>
+    
+<!--PERIDOT-->
+        <button id="peridot" class="angry"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/peridot/?_ga=2.161015229.1069693491.1675210815-288898737.1675210815" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoSb27R-8GncuHpKf8wJPidUHT9B5L4B8-A&usqp=CAU"><hr>
+        Peridot</button></a>
+     
+<!--PINK OPAL DUPLICATES-->
+        <button id="pink-opal" class="fatigued"><a href= "https://thecrystalcouncil.com/crystals/pink-opal" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCguFcENj3DNC2EwB7s9GtaO7wrmmpGmaOlA&usqp=CAU"><hr>
+        Pink Opal</button></a>
+
+        <button id="pink-opal" class="sad"><a href= "https://thecrystalcouncil.com/crystals/pink-opal" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCguFcENj3DNC2EwB7s9GtaO7wrmmpGmaOlA&usqp=CAU"><hr>
+        Pink Opal</button></a>
+    
+<!--RAINBOW OBSIDIAN-->
+        <button id="rainbow-obsidian" class="sad"><a href= "https://moonrisecrystals.com/rainbow-obsidian-meaning/" target="_blank"">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSEvEZaogZekrvvzzUzvwtzxJu6Z7GcuEdAQ&usqp=CAU"><hr>
+        Rainbow Obsidian</button></a>
+    
+<!--RED JASPER-->
+        <button id="red-jasper" class="sensual"><a href= "https://tinyrituals.co/blogs/tiny-rituals/red-jasper-meaning-healing-properties-and-everyday-uses" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQHWdHzpLYyg-mb2a3vvFsDzLA7Knxdbaxg&usqp=CAU"><hr>
+          Red Jasper</button></a>
+    
+<!--RHODONITE-->
+        <button id="rhodonite" class="anxious"><a href= "https://tinyrituals.co/blogs/tiny-rituals/rhodonite-meaning-healing-properties-everyday-uses" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9cbRW-0AuEiA8Rp9_uvPg0Qom2zc7sAFZKA&usqp=CAU"><hr>
+          Rhodonite</button></a>
+    
+<!--ROSE QUARTZ DUPLICATES-->
+        <button id="rose-quartz" class="anxious"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/rose-quartz" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXWwJLWsoSBXBukZbzLYpUaYy-m3SzmcMlA&usqp=CAU"><hr>
+          Rose Quartz</button></a>
+
+          <button id="rose-quartz" class="calm"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/rose-quartz" target="_blank">
+            <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXWwJLWsoSBXBukZbzLYpUaYy-m3SzmcMlA&usqp=CAU"><hr>
+            Rose Quartz</button></a>
+
+            <button id="rose-quartz" class="empathetic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/rose-quartz" target="_blank">
+              <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXWwJLWsoSBXBukZbzLYpUaYy-m3SzmcMlA&usqp=CAU"><hr>
+              Rose Quartz</button></a>
+
+              <button id="rose-quartz" class="happy"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/rose-quartz" target="_blank">
+                <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXWwJLWsoSBXBukZbzLYpUaYy-m3SzmcMlA&usqp=CAU"><hr>
+                Rose Quartz</button></a>
+
+                <button id="rose-quartz" class="sensual"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/rose-quartz" target="_blank">
+                  <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXWwJLWsoSBXBukZbzLYpUaYy-m3SzmcMlA&usqp=CAU"><hr>
+                  Rose Quartz</button></a>
+      
+<!--SHIVA LINGAM-->
+        <button id="shiva-lingam" class="sensual"><a href= "https://moonrisecrystals.com/shiva-lingam-meaning/" target="_blank"">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREa7yOMWoaOcGvihc9yYYqb3NMEJG6jYeEvQ&usqp=CAU"><hr>
+          Shiva Lingam</button></a>
+    
+<!--SUNSTONE-->
+        <button id="sunstone" class="happy"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/sunstone" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRlYJibEGHKzNF9rAwI5jeDg9EhPmBsnVS9Q&usqp=CAU"><hr>
+          Sunstone</button></a>
+      
+<!--SMOKY QUARTZ DUPLICATES-->
+        <button id="smoky-quartz" class="angry"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/smoky-quartz" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN8G_gIKNzvY49Jcb1kAuNLRUkhnDyFUhX3w&usqp=CAU"><hr>
+          Smoky Quartz</button></a>
+
+          <button id="smoky-quartz" class="stressed"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/smoky-quartz" target="_blank">
+            <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN8G_gIKNzvY49Jcb1kAuNLRUkhnDyFUhX3w&usqp=CAU"><hr>
+            Smoky Quartz</button></a>
+
+<!--SELENITE-->
+          <button id="selenite" class="frustrated"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/selenite/" target="_blank">
+            <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPVbTAu8-MXsyM4qeHNjJHDtZCIWZ-rNOhw&usqp=CAU"><hr>
+            Selenite</button></a>
+      
+<!--SODALITE-->
+          <button id="sodalite" class="fatigued"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/sodalite/" target="_blank"">
+            <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSMIChvSs1qvlNBDnYSGVKSprW5cm56VBWA&usqp=CAU"><hr>
+            Sodalite</button></a>
+        
+<!--TIGERS EYE-->
+          <button id="tigers-eye" class="confused"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/tigers-eye" target="_blank">
+            <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUeGemTm7el-ykFxqkAjRekL7dbaASAW6vQA&usqp=CAU"><hr>
+            Tiger's Eye</button></a>
+</div>
+
+<!--More information Box-->
+<div class="btn-warning">
+  <img src="btn warning.png" alt="Buttons Below Box">
+
+
+  <!--More information Buttons Box-->
+  <span class="otherBtns">
+    <a href="chakra.html">
+    <button class="btn-ChakraB">Chakra Balancing</button>
+    </a>
+    <a href="ailments.html">
+    <button class="btn-PhysA">Physical Ailments</button>
+    </a>
+  </span>
+  </div>
+
+
+  <!--Footer Banner-->
+  <div class="footer_container">
+    <footer class="footer">
+      <h4>Made by Savvy Wace </h4>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

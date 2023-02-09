@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!--Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style-PA.css">
+
+    <!--Logo & Caption-->
+
+    <title>MOODCrystal</title>
+<body class="body">
+  </head>
+  <div class="logo">
+    <img src="logo.png" alt="mood crystal">
+  </div>
+  <hr>
+
+<!--MOOD CHART-->
+<span class="menu">
+  <div class="body-systems">
+    <img src="Systems.png" alt="Systems of the body">
+  </div>
+ <!--   <h3 class="text-box">
+        What mood are you in?
+        What mood do you seek?
+        What crystal is right for you?
+    </h3>-->
+
+    <!--Mood Buttons-->
+<main class="moodBtn">
+     <button onclick = "loadSkeletal()" id="skeletal">
+      Skeletal System</button>
+    <button onclick = "loadMuscular()"" id="muscular">
+      Muscular System</button>
+     <button onclick = "loadNervous()" id="nervous">
+     Nervous System</button>
+    <button onclick = "loadEndocrine()" id="endocrine">
+      Endocrine System</button>
+     <button onclick = "loadCardiovascular()" id="cardiovascular">
+      Cardiovascular System</button>
+    <button onclick = "loadLymphatic()" id="lymphatic">
+      Lymphatic System</button>
+    <button onclick = "loadRespiratory()" id="respiratory">
+      Respiratory System</button>
+    <button onclick = "loadDigestive()" id="digestive">
+      Digestive System</button>
+    <button onclick = "loadUrinary()" id="urinary">
+        Urinary System</button>
+    <button onclick = "loadReproductive()" id="reproductive">
+        Reproductive System</button>
+  </main>
+</span>
+
+<!--CRYSTALS-->
+
+<div class = "crystal-box">
+
+  <!--AMBER-->
+  <button id="amber" class="endocrine"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amber" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReenm3FHSep4og9CJKNYNP5_Lz1zSOlenV6g&usqp=CAU"><hr>
+  Amber</button></a>
+
+  <button id="amber" class="respiratory"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amber" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReenm3FHSep4og9CJKNYNP5_Lz1zSOlenV6g&usqp=CAU"><hr>
+  Amber</button></a>
+
+  <button id="amber" class="urinary"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amber" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReenm3FHSep4og9CJKNYNP5_Lz1zSOlenV6g&usqp=CAU"><hr>
+  Amber</button></a>
+
+  <!--AMETHYST DUPLICATES-->
+  <button id="amethyst" class="respiratory"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/amethys" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+    ANd9GcSCrWMPzsadeSdMrp7nsJIuSKztv1ehFGP7bg&usqp=CAU"><hr>
+  Amethyst</button></a>
+  
+
+  <!--AGATE-->
+  <button id="agate" class="lymphatic"><a href= "https://whitelotusmagazine.com/crystal-therapy-agate/" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbB2ex4lj28g0F1kWcqvxwaHEQ0WMG8Wsvtg&usqp=CAU"><hr>
+  Agate</button></a>
+
+  <!--APATITE-->
+  <button id="apatite" class="skeletal"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/apatite-blue" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnKB8QsjW92W0-obBVMMP8RgI_Efc55o6TA&usqp=CAU"><hr>
+  Apatite</button></a>
+
+  <!--AQUAMARINE-->
+  <button id="aquamarine" class="endocrine"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/aquamarine" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8V4lMcN0WGFKqAPHreRLtkq6yOJQMpvkpPw&usqp=CAU"><hr>
+    Aquamarine</button></a>
+
+    <button id="aquamarine" class="urinary"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/aquamarine" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8V4lMcN0WGFKqAPHreRLtkq6yOJQMpvkpPw&usqp=CAU"><hr>
+      Aquamarine</button></a>
+
+  <!--BLACK TOURMALINE DUPLICATES-->
+  <button id="black-tourmaline" class="muscular"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/black-tourmaline/" target="_blank"">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW1h362APXg7ph2bJYPM_tBByQ5dNV_Q4-0w&usqp=CAU"><hr>
+    Black Tourmaline</button></a>
+
+    <!--BLACK OBSIDIAN DUPLICATES-->
+    <button id="obsidian" class="digestive"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/obsidian/?_ga=2.161015229.1069693491.1675210815-288898737.1675210815" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdTpHmfsLVmsBfxKwUrlaBlSpySNuQh435w&usqp=CAU"><hr>
+    Obsidian</button></a>
+
+  <!--BLOODSTONE DUPLICATES-->
+    <button id="bloodstone" class="lymphatic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/bloodstone" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Q-w6JbvJHx6YIfcR8uTg3dSVHkqfzKlAnQ&usqp=CAU"><hr>
+    Bloodstone</button></a>
+    
+  <!--BLUE LACE AGATE-->
+    <button id="blue-lace-agate" class="nervous"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/blue-lace-agate/" target="_blank"">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiSDX-kr7-VKukghHJjjwrp7XUfK19RVPI3w&usqp=CAU"><hr>
+    Blue Lace Agate</button></a>
+
+    <button id="blue-lace-agate" class="digestive"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/blue-lace-agate/" target="_blank"">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiSDX-kr7-VKukghHJjjwrp7XUfK19RVPI3w&usqp=CAU"><hr>
+      Blue Lace Agate</button></a>
+
+  <!--BLUE TOURMALINE-->
+  <button id="Blue-tourmaline" class="lymphatic"><a href= "https://www.healingwithcrystals.net.au/tourmaline.html" target="_blank"">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Yj-GIsE4Q3yDGOMUbOPmJayyv4eu-E2dTQ&usqp=CAU"><hr>
+    Blue Tourmaline</button></a>
+
+  <!--CALCITE-->
+    <button id="calcite" class="skeletal"><a href= "https://www.thespruce.com/calcite-feng-shui-4153035" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVVuRIM0XtX4qvyJhUjOMuQrsnrSfExAe8w&usqp=CAU"><hr>
+      Calcite</button></a>
+
+      <button id="calcite" class="nervous"><a href= "https://www.thespruce.com/calcite-feng-shui-4153035" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVVuRIM0XtX4qvyJhUjOMuQrsnrSfExAe8w&usqp=CAU"><hr>
+      Calcite</button></a>
+
+  <!--CHRYSOCOLLA-->
+    <button id="chrysocolla" class="muscular"><a href= "https://tinyrituals.co/blogs/tiny-rituals/chrysocolla-meaning-healing-properties-everyday-uses" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzSsnu_YT3t2VPTAryeekqsAdUI0jHnzw40A&usqp=CAU"><hr>
+    Chrysocolla</button></a>
+
+    <button id="chrysocolla" class="endocrine"><a href= "https://tinyrituals.co/blogs/tiny-rituals/chrysocolla-meaning-healing-properties-everyday-uses" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzSsnu_YT3t2VPTAryeekqsAdUI0jHnzw40A&usqp=CAU"><hr>
+    Chrysocolla</button></a>
+
+  <!--CARNELIAN-->
+    <button id="carnelian" class="urinary"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/carnelian" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSWynv_Xc5ARpY9lwvHV1wGJ5_KEZccOshA&usqp=CAU"><hr>
+    Carnelian</button></a>
+
+    <button id="carnelian" class="digestive"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/carnelian" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSWynv_Xc5ARpY9lwvHV1wGJ5_KEZccOshA&usqp=CAU"><hr>
+    Carnelian</button></a>
+
+  <!--CITRINE DUPLICATES-->
+    <button id="citrine" class="urinary"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/citrine" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpMbwn7IMMz5b2AD0rZ1ynjvuPMQAWNq0-Q&usqp=CAU"><hr>
+    Citrine</button></a>
+
+  <!--DOLOMITE DUPLICATES-->
+    <button id="dolomite" class="nervous"><a href= "https://sagecrystals.com/blogs/properties/dolomite#:~:text=It%20offers%20a%20calming%20and,anxiety%20relief%20and%20balancing%20polarities." target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Au0ypSHvzr9gPK3T9ydaGKoAc6iXFe1XLQ&usqp=CAU"><hr>
+    Dolomite</button></a>
+
+  <!--EMERALD DUPLICATES-->
+    <button id="emerald" class="cardiovascular"><a href= "https://thecrystalcouncil.com/crystals/emerald" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9rq2j_2QtpgJdJIA5s3KUjXsk6IXe5gH0ZA&usqp=CAU"><hr>
+      Emerald</button></a>
+
+    <!--FLUORITE-->
+    <button id="fluorite" class="skeletal"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/clear-fluorite/?_ga=2.195767724.1069693491.1675210815-288898737.1675210815" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtulw0Sy6WRbTiwLhiYBEcFLCDgZZA7qxMjg&usqp=CAU"><hr>
+    Fluorite</button></a>
+
+    <!--HOWLITE DUPLICATES-->
+    <button id="howlite" class="skeletal"><a href= "https://tinyrituals.co/blogs/tiny-rituals/howlite-meaning-healing-properties-everyday-uses#:~:text=Howlite%20is%20a%20borate%20mineral,linked%20to%20patience%20and%20perspective." target="_blank"">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4r4H8A0bWVuGFBzhVB08moB8F1l8qp7dnmA&usqp=CAU"><hr>
+      Howlite</button></a>
+    
+      <button id="howlite" class="muscular"><a href= "https://tinyrituals.co/blogs/tiny-rituals/howlite-meaning-healing-properties-everyday-uses#:~:text=Howlite%20is%20a%20borate%20mineral,linked%20to%20patience%20and%20perspective." target="_blank"">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4r4H8A0bWVuGFBzhVB08moB8F1l8qp7dnmA&usqp=CAU"><hr>
+        Howlite</button></a>
+
+  <!--HEMATITE DUPLICATES-->
+  <button id="hematite" class="respiratory"><a href= "https://tinyrituals.co/blogs/tiny-rituals/hematite-meaning-healing-properties-stone-guide" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_MImnWbXF5boIDJJkzfukzLuYIgW9KoyzSA&usqp=CAU"><hr>
+    Hematite</button></a>
+
+  <!--JASPER DUPLICATES-->
+  <button id="jasper" class="digestive"><a href= "https://www.charmsoflight.com/jasper-healing-properties" target="_blank">
+    <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1yR3hSBnopVb1eFBfViwkQj733-2_Ki4vA&usqp=CAU"><hr>
+    Jasper</button></a>
+
+    <!--LAPIS LAZULI DUPLICATES-->
+    <button id="lapis-lazuli" class="endocrine"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/lapis" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCygPkN3wpJ4n78F7JVMnMFFuVXBFQIJ2jxA&usqp=CAU"><hr>
+      Lapis Lazuli</button></a>
+
+      <button id="lapis-lazuli" class="reproductive"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/lapis" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCygPkN3wpJ4n78F7JVMnMFFuVXBFQIJ2jxA&usqp=CAU"><hr>
+        Lapis Lazuli</button></a>
+
+  <!--LAPIS LAZULI DUPLICATES-->
+    <button id="lithium-quartz" class="nervous"><a href= "https://moonrisecrystals.com/lithium-quartz-meaning/" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjqjhbVayxDx91k3pVnJW5JqmzzY_E0ilNg&usqp=CAU"><hr>
+      Lithium Quartz</button></a>
+
+  <!--LEPIDOLITE-->
+    <button id="lepidolite" class="nervous"><a href= "https://tinyrituals.co/blogs/tiny-rituals/lepidolite-meaning-healing-properties-everyday-use" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzyFgsqvr3uNX5olpnJiLCn9RXMj5_50fPqQ&usqp=CAU"><hr>
+      Lepidolite</button></a>
+
+    <!--MALACHITE-->
+    <button id="malachite" class="muscular"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/malachite" target="_blank">
+      <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-O1XbY1BnNXphh5nHj-A8xhlnyrJfuO2Z4w&usqp=CAU"><hr>
+      Malachite</button></a>
+
+    <!--MOONSTONE DUPLICATES-->
+      <button id="moonstone" class="reproductive"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/moonstone" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK43uQUczuoLJE4XciZQL9TKqqTxTdyWqIdQ&usqp=CAU"><hr>
+        Moonstone</button></a>
+
+    <!--MOSS AGATE-->
+      <button id="moss-agate" class="lymphatic"><a href= "https://tinyrituals.co/blogs/tiny-rituals/moss-agate-meaning-healing-properties-everyday-uses" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94bFb8VqGUda13OQuBVfSSragu1T-cxjv7g&usqp=CAU"><hr>
+        Moss Agate</button></a>
+
+        <button id="moss-agate" class="respiratory"><a href= "https://tinyrituals.co/blogs/tiny-rituals/moss-agate-meaning-healing-properties-everyday-uses" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94bFb8VqGUda13OQuBVfSSragu1T-cxjv7g&usqp=CAU"><hr>
+          Moss Agate</button></a>
+
+    <!--PEARL-->
+      <button id="pearl" class="cardiovascular"><a href= "https://tinyrituals.co/blogs/tiny-rituals/pearl-meaning" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHq9GetcZ467Ui675EF07P7nF3GwWE3H9RA&usqp=CAU"><hr>
+        Pearl</button></a>
+
+    <!--PERIDOT-->
+      <button id="peridot" class="digestive"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/peridot/?_ga=2.161015229.1069693491.1675210815-288898737.1675210815" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoSb27R-8GncuHpKf8wJPidUHT9B5L4B8-A&usqp=CAU"><hr>
+        Peridot</button></a>
+
+    <!--PINK TOURMALINE-->
+      <button id="pink-tourmaline" class="endocrine"><a href= "https://thecrystalcouncil.com/crystals/pink-tourmaline" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf-8cv4_g6y1oHZe_ox1t88NyzIGK-mNAnKQ&usqp=CAU"><hr>
+        Pink Tourmaline</button></a>
+
+   <!--PYRITE-->
+      <button id="pyrite" class="skeletal"><a href= "https://tinyrituals.co/blogs/tiny-rituals/pyrite-meaning-healing-properties-everyday-uses" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZ3BI-gZ60ZxaDZ-r0R0JaaC7cMppSG7PRw&usqp=CAU"><hr>
+        Pyrite</button></a>
+
+    <!--ROSE QUARTZ DUPLICATES-->
+      <button id="rose-quartz" class="cardiovascular"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/rose-quartz" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXWwJLWsoSBXBukZbzLYpUaYy-m3SzmcMlA&usqp=CAU"><hr>
+        Rose Quartz</button></a>
+
+        <button id="rose-quartz" class="respiratory"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/rose-quartz" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXWwJLWsoSBXBukZbzLYpUaYy-m3SzmcMlA&usqp=CAU"><hr>
+          Rose Quartz</button></a>
+
+  <!--RUBY-->
+      <button id="ruby" class="cardiovascular"><a href= "https://tinyrituals.co/blogs/tiny-rituals/ruby-meaning" target="_blank">
+        <img class= "img-crystal" src="https://cdn.shopify.com/s/files/1/0273/4214/3566/files/Untitled_design_2_e5858514-baa9-4de8-b6e5-b290e78527c1.jpg?v=1632734531"><hr>
+        Ruby</button></a>
+
+    <!--SELENITE-->
+      <button id="selenite" class="muscular"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/selenite/" target="_blank">
+        <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPVbTAu8-MXsyM4qeHNjJHDtZCIWZ-rNOhw&usqp=CAU"><hr>
+        Selenite</button></a>
+
+        <!--SODALITE-->
+        <button id="sodalite" class="lymphatic"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/sodalite/" target="_blank"">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSMIChvSs1qvlNBDnYSGVKSprW5cm56VBWA&usqp=CAU"><hr>
+          Sodalite</button></a>
+
+          <!--SMOKY QUARTZ DUPLICATES-->
+        <button id="smoky-quartz" class="reproductive"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/smoky-quartz" target="_blank">
+          <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN8G_gIKNzvY49Jcb1kAuNLRUkhnDyFUhX3w&usqp=CAU"><hr>
+          Smoky Quartz</button></a>
+
+          <!--TIGERS EYE-->
+          <button id="tigers-eye" class="cardiovascular"><a href= "https://www.crystalvaults.com/crystal-encyclopedia/tigers-eye" target="_blank">
+            <img class= "img-crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUeGemTm7el-ykFxqkAjRekL7dbaASAW6vQA&usqp=CAU"><hr>
+            Tiger's Eye</button></a>
+
+      <!--TURQUOISE-->
+          <button id="turquoise" class="reproductive"><a href= "https://tinyrituals.co/blogs/tiny-rituals/turquoise-howlite-meaning-healing-properties-and-everyday-uses" target="_blank">
+            <img class= "img-crystal" src="https://cdn.shopify.com/s/files/1/0273/4214/3566/files/Untitled_design_-_2020-06-24T114744.664_1024x1024.jpg?v=1592995687"><hr>
+            Turquoise</button></a>
+
+</div>
+<!--More information Box-->
+<div class="btn-warning">
+  <img src="btn warning physA.png" alt="Buttons Below Box">
+
+  
+  <!--More information Buttons Box-->
+  <span class="otherBtns">
+    <a href="index.html">
+    <button class="btn-ChakraB">Home</button>
+    </a>
+    <a href="chakra.html">
+    <button class="btn-PhysA">Chakra Balancing</button>
+    </a>
+  </span>
+  </div>
+
+   <!--Footer Banner-->
+   <div class="footer_container">
+    <footer class="footer">
+      <h4>Made by Savvy Wace </h4>
+    </footer>
+  </div>
+  <script src="script-PA.js"></script>
+</body>
+</html>

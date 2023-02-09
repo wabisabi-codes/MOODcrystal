@@ -1,0 +1,43 @@
+.crystal-box {
+  display: flex;
+}
+
+.skeletal {
+  display: none;
+}
+
+.muscular {
+  display: none;
+}
+
+.nervous {
+  display: none;
+}
+
+.endocrine {
+  display: none;
+}
+
+.cardiovascular {
+  display: none;
+}
+
+.lymphatic {
+  display: none;
+}
+
+.respiratory {
+  display: none;
+}
+
+.digestive {
+  display: none;
+}
+
+.urinary {
+  display: none;
+}
+
+.reproductive {
+  display: none;
+}

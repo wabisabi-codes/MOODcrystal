@@ -1,0 +1,32 @@
+.crystal-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.root {
+  display: none;
+}
+
+.sacral {
+  display: none;
+}
+
+.plexus {
+  display: none;
+}
+
+.heart {
+  display: none;
+}
+
+.throat {
+  display: none;
+}
+
+.third-eye {
+  display: none;
+}
+
+.crown {
+  display: none;
+}
